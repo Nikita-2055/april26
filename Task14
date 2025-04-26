@@ -1,0 +1,16 @@
+#include<stdio.h>
+int function(int n, int a){
+    while(n){
+        a += n % 10;
+        n = n / 10;
+        }
+       return a; 
+}
+int main(){
+    int n = 0;
+    int a = 0;
+    scanf("%d",&n);
+    int res = function(n,a);
+    printf("%d\n",res);
+    return 0;
+}
