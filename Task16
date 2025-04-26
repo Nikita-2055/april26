@@ -1,0 +1,14 @@
+#include<stdio.h>
+void function(int n,char *str){
+    for(int i = 0; str[i] != '\0'; ++i){
+        printf("%c",str[n]);
+        n--;
+    }
+    return ;
+}
+int main(){
+    int n = 4;
+    char str[] = "hello";
+    function(n,str);
+    return 0;
+}
