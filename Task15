@@ -1,0 +1,14 @@
+#include<stdio.h>
+int power(int num,int exp,int res){
+    for(int i = 1; i <= exp;++i ){
+        res = res * num;
+    }
+    return res;
+}
+int main(){
+    int num = 2;
+    int exp = 5;
+    int res = 1;
+    printf("result: %d\n",power(num,exp,res));
+    return 0;
+}
