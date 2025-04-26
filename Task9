@@ -1,0 +1,10 @@
+#include<stdio.h>
+int fahrenheit(int n){
+    int res = (n * (9/5) + 32);
+    return res;
+}
+int main(){
+    int n = 25;
+    printf("result: %d\n",fahrenheit(n));
+    return 0;
+}
